@@ -9,10 +9,22 @@
 .footer-item-flex {
     flex: 0 1 auto;
 }
+
 .zoom {
-    transition: transform .5s; /* Animation */
-  }
-  
-  .zoom:hover {
-    transform: scale(0.95); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  }
+    transition: transform .5s;
+    /* Animation */
+}
+
+.zoom:hover {
+    transform: scale(0.95);
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active {
+    background-color: var(--blue);
+}
+
+.dissolve {
+    
+}
